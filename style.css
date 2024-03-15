@@ -1,3 +1,6 @@
+@import "sobre.css";
+@import "treinar.css";
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -71,3 +74,10 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+a {
+    text-decoration: none;
+    color: #89C5CC;
+}
+
+

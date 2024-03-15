@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="trieno">
     <div class="container">
         <nav class="header">
             <a id="logo" href="#">
@@ -23,14 +23,24 @@
         </nav>
 
         <main>
-            <section>
-                <h1>Treinos <span class="titulo">exclusivos</span><br>para você!</h1>
-                <p>Nós criamos treinos <strong>exclusivos e únicos para você.</strong><br>
-                Invista no seu corpo e <strong>tenha muito mais performance</strong>  e qualidade de vida.</p>
-                <button>
-                <img src="img/wpp.svg" alt="">Comece já</button>     
-            </section>
-            <img src="img/image.jpg" alt="imagem">  
+            <form action="/submit" method="post">
+                <h2>Treinamento Personalizado</h2>
+            
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br>
+            
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+            
+                <label for="objetivo">Objetivo do Treinamento:</label><br>
+                <input type="text" id="objetivo" name="objetivo" required><br>
+                </select><br>
+            
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+            
+                <input type="submit" value="Enviar">
+            </form>
         </main>
 
         <footer>

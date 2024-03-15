@@ -1,0 +1,16 @@
+.sobre { 
+    display: grid;
+    grid-template-areas: 
+    "sobre sobre sobre"
+    "imagem texto texto"
+    "footer footer footer";
+}
+
+.sobre h1 {
+    grid-area: sobre;
+}
+
+.sobre-img {
+    max-width: 90%;
+    grid-area: imagem;
+}
